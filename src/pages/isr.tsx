@@ -2,7 +2,7 @@ import { GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import Layout from '@/components/Layout'
+import Layout from '@/components/common/Layout'
 import { Task, Notice } from '@/types/types'
 import { supabase } from '@/utils/supabase'
 

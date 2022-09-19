@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import { LogoutIcon } from '@heroicons/react/solid'
 
-import Layout from '@/components/Layout'
+import Layout from '@/components/common/Layout'
 import { supabase } from '@/utils/supabase'
 
 const Dashboard: NextPage = () => {
